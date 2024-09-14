@@ -16,7 +16,7 @@ const services = [
 
 const ChildrenServices = () => {
   return (
-    <div className="w-[1500px] h-[901px] bg-[#FDF6E3] p-12 flex">
+    <div className="w-full h-[901px] bg-[#FCEDC6] p-12 flex">
       <div className="flex-1 pr-12">
       <Image
           src={what}
@@ -26,7 +26,7 @@ const ChildrenServices = () => {
          <h1 className="text-black font-bold text-[42px] mb-8 font-roboto ml-[100px]">
           Some services we provide for our children
         </h1>
-        <p className="text-[#666] text-xl mb-12 ml-[100px] font-roboto">
+        <p className="text-[#666] text-lg mb-12 ml-[100px] font-roboto ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
           eros elementum tristique.
         </p>
@@ -38,7 +38,7 @@ const ChildrenServices = () => {
               </div>
               <div>
                 <h3 className="text-black font-semibold text-2xl mb-2">{service.name}</h3>
-                <p className="text-[#666] text-lg">
+                <p className="text-[#666] text-sm w-[360px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
                 </p>
               </div>
@@ -50,9 +50,7 @@ const ChildrenServices = () => {
         <Image
           src={service}
           alt="Child with headphones"
-          width={480}
-          height={658}
-          className="object-cover w-full h-full"
+          width={410} height={80} className="rounded-tl-[20px] mt-[100px]" 
         />
       </div>
     </div>
